@@ -2,10 +2,10 @@ package labels;
 
 import java.time.Month;
 
-import static java.time.Month.*;
+import static java.time.Month.MARCH;
 
 @SuppressWarnings({"UnusedLabel", "TextLabelInSwitchStatement"})
-public class LabelsInSwitched {
+public class LabelsInSwitchesFinished {
     private static void labelsInSwitch(Month month) {
         switch (month) {
             case JANUARY:
