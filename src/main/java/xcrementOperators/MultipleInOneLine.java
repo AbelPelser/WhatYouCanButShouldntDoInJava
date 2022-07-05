@@ -8,7 +8,7 @@ public class MultipleInOneLine {
 
     private static void multipleInOneLine() {
         int x = 5;
-        /*      5       3      2   3                        4*/
+        /*  -1  5       3 -3   2 -1  3 -6    2       3      4*/
         int y = x-- + --x * (--x - ++x) * doThing(doThing(++x));
         System.out.println("y = " + y);
     }
