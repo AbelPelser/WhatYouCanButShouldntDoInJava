@@ -2,7 +2,7 @@ package controlFlowIssues;
 
 public class BlockDelimitingIssuesFinished {
     private static void blockDelimiters(int i) {
-        if(i == 5)
+        if (i == 5)
             System.out.println("i == 5");
             System.out.println("i == 5, really!");
             System.out.println("i == 5, confirmed.");

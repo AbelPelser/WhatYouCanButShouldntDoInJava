@@ -6,6 +6,7 @@ public class MultipleInOneLine {
         return --a;
     }
 
+
     private static void multipleInOneLine() {
         int x = 5;
         /*  -1  5       3 -3   2 -1  3 -6    2       3      4*/
