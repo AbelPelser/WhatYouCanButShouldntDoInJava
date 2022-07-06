@@ -1,27 +1,15 @@
 package fizzbuzz;
 
-import java.util.Map;
-
 /**
  * FizzBuzz without for loops, foreach loops, while loops, if statements, switches, ternary operators and without streams.
+ * divisible by 3 => Fizz
+ * divisible by 5 => Buzz
+ * divisible by 3 and 5 => FizzBuzz
  *
  * @author Johan de Jong
  */
 public class FizzBuzz {
-    private final Map<Boolean, Integer> boolToInt = Map.of(false, 0, true, 1);
-
     public static void main(String[] args) {
-        new FizzBuzz().start(1);
-    }
 
-    private boolean start(int x) {
-        String[] values = {
-                Integer.toString(x),
-                "Fizz",
-                "Buzz",
-                "FizzBuzz"
-        };
-        System.out.println(values[boolToInt.get((x % 3) == 0) + 2 * boolToInt.get((x % 5) == 0)]);
-        return x == 100 || start(x + 1);
     }
 }
