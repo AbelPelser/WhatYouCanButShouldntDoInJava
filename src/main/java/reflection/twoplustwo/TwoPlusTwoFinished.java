@@ -1,6 +1,6 @@
 package reflection.twoplustwo;
 
-import static reflection.twoplustwo.ChangeIntegerCache.someInnocentCode;
+import static reflection.twoplustwo.SomeInnocentCode.someInnocentCode;
 
 public class TwoPlusTwoFinished {
     public static void main(String[] args) throws Exception {
